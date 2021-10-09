@@ -19,7 +19,7 @@ $.setOptions({
 });
 $.readme = `
 44 */6 * * * task ${$.runfile}
-exprot ${$.runfile}=2  #如需增加被助力账号,在这边修改人数
+exprot ${$.runfile}=4  #如需增加被助力账号,在这边修改人数
 `
 eval(common.eval.mainEval($));
 async function prepare() {
